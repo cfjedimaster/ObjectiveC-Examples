@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DDE05FC3-1417-4BF2-8CE2-B69052938F76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Death Clock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>785E6156-FDEE-4478-B253-1EE80E0666EF</key>
+		<string>https://github.com/cfjedimaster/ObjectiveC-Examples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Death Clock/Death Clock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>785E6156-FDEE-4478-B253-1EE80E0666EF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cfjedimaster/ObjectiveC-Examples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>785E6156-FDEE-4478-B253-1EE80E0666EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>785E6156-FDEE-4478-B253-1EE80E0666EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xcodeprojects</string>
+		</dict>
+	</array>
+</dict>
+</plist>

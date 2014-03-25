@@ -39,7 +39,7 @@
     scrollView.contentSize = screenRect.size;
      */
     
-    self.window.backgroundColor = [UIColor blackColor];
+    //self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

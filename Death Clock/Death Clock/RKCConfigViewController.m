@@ -66,7 +66,7 @@
     NSLog(@"CLICK ME BABY");
     RKCDeathClockViewController *dvc = [[RKCDeathClockViewController alloc] init];
     dvc.birthday = _birthday;
-    [self.navigationController pushViewController:dvc animated:NO];
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 
 @end

@@ -32,6 +32,7 @@
     [cv addSubview:_gearView];
     
     self.view = cv;
+    self.view.backgroundColor = [UIColor blackColor];
 }
 
 - (void)setBirthday:(NSDate *)birthday
@@ -70,7 +71,7 @@
     {
         //add your code for image touch here
         NSLog(@"touch me");
-        [self.navigationController popViewControllerAnimated:NO];
+        [self.navigationController popViewControllerAnimated:YES];
     }
 
     
