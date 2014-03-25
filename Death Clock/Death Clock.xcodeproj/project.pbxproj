@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719B875B18E0AF8900DAA45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B875A18E0AF8900DAA45E /* Foundation.framework */; };
+		719B875D18E0AF8900DAA45E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B875C18E0AF8900DAA45E /* CoreGraphics.framework */; };
+		719B875F18E0AF8900DAA45E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B875E18E0AF8900DAA45E /* UIKit.framework */; };
+		719B876518E0AF8900DAA45E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 719B876318E0AF8900DAA45E /* InfoPlist.strings */; };
+		719B876718E0AF8900DAA45E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B876618E0AF8900DAA45E /* main.m */; };
+		719B876B18E0AF8900DAA45E /* RKCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B876A18E0AF8900DAA45E /* RKCAppDelegate.m */; };
+		719B876D18E0AF8900DAA45E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719B876C18E0AF8900DAA45E /* Images.xcassets */; };
+		719B877418E0AF8900DAA45E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B877318E0AF8900DAA45E /* XCTest.framework */; };
+		719B877518E0AF8900DAA45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B875A18E0AF8900DAA45E /* Foundation.framework */; };
+		719B877618E0AF8900DAA45E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B875E18E0AF8900DAA45E /* UIKit.framework */; };
+		719B877E18E0AF8900DAA45E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 719B877C18E0AF8900DAA45E /* InfoPlist.strings */; };
+		719B878018E0AF8900DAA45E /* Death_ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B877F18E0AF8900DAA45E /* Death_ClockTests.m */; };
+		719B878B18E0AFB400DAA45E /* CounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B878A18E0AFB400DAA45E /* CounterView.m */; };
+		719B878E18E0C6E900DAA45E /* RKCDeathClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B878D18E0C6E900DAA45E /* RKCDeathClockViewController.m */; };
+		719B879118E0CB5200DAA45E /* RKCConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B879018E0CB5200DAA45E /* RKCConfigViewController.m */; };
+		719B879318E0CBBD00DAA45E /* RKCConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719B879218E0CBBD00DAA45E /* RKCConfigViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		719B877718E0AF8900DAA45E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719B874F18E0AF8900DAA45E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719B875618E0AF8900DAA45E;
+			remoteInfo = "Death Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		719B875718E0AF8900DAA45E /* Death Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Death Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719B875A18E0AF8900DAA45E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		719B875C18E0AF8900DAA45E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		719B875E18E0AF8900DAA45E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		719B876218E0AF8900DAA45E /* Death Clock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Death Clock-Info.plist"; sourceTree = "<group>"; };
+		719B876418E0AF8900DAA45E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		719B876618E0AF8900DAA45E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719B876818E0AF8900DAA45E /* Death Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Death Clock-Prefix.pch"; sourceTree = "<group>"; };
+		719B876918E0AF8900DAA45E /* RKCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKCAppDelegate.h; sourceTree = "<group>"; };
+		719B876A18E0AF8900DAA45E /* RKCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKCAppDelegate.m; sourceTree = "<group>"; };
+		719B876C18E0AF8900DAA45E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		719B877218E0AF8900DAA45E /* Death ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Death ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719B877318E0AF8900DAA45E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		719B877B18E0AF8900DAA45E /* Death ClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Death ClockTests-Info.plist"; sourceTree = "<group>"; };
+		719B877D18E0AF8900DAA45E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		719B877F18E0AF8900DAA45E /* Death_ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Death_ClockTests.m; sourceTree = "<group>"; };
+		719B878918E0AFB400DAA45E /* CounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterView.h; sourceTree = "<group>"; };
+		719B878A18E0AFB400DAA45E /* CounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterView.m; sourceTree = "<group>"; };
+		719B878C18E0C6E900DAA45E /* RKCDeathClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCDeathClockViewController.h; sourceTree = "<group>"; };
+		719B878D18E0C6E900DAA45E /* RKCDeathClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCDeathClockViewController.m; sourceTree = "<group>"; };
+		719B878F18E0CB5200DAA45E /* RKCConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCConfigViewController.h; sourceTree = "<group>"; };
+		719B879018E0CB5200DAA45E /* RKCConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCConfigViewController.m; sourceTree = "<group>"; };
+		719B879218E0CBBD00DAA45E /* RKCConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKCConfigViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719B875418E0AF8900DAA45E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B875D18E0AF8900DAA45E /* CoreGraphics.framework in Frameworks */,
+				719B875F18E0AF8900DAA45E /* UIKit.framework in Frameworks */,
+				719B875B18E0AF8900DAA45E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719B876F18E0AF8900DAA45E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B877418E0AF8900DAA45E /* XCTest.framework in Frameworks */,
+				719B877618E0AF8900DAA45E /* UIKit.framework in Frameworks */,
+				719B877518E0AF8900DAA45E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719B874E18E0AF8900DAA45E = {
+			isa = PBXGroup;
+			children = (
+				719B876018E0AF8900DAA45E /* Death Clock */,
+				719B877918E0AF8900DAA45E /* Death ClockTests */,
+				719B875918E0AF8900DAA45E /* Frameworks */,
+				719B875818E0AF8900DAA45E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719B875818E0AF8900DAA45E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719B875718E0AF8900DAA45E /* Death Clock.app */,
+				719B877218E0AF8900DAA45E /* Death ClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719B875918E0AF8900DAA45E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719B875A18E0AF8900DAA45E /* Foundation.framework */,
+				719B875C18E0AF8900DAA45E /* CoreGraphics.framework */,
+				719B875E18E0AF8900DAA45E /* UIKit.framework */,
+				719B877318E0AF8900DAA45E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		719B876018E0AF8900DAA45E /* Death Clock */ = {
+			isa = PBXGroup;
+			children = (
+				719B878918E0AFB400DAA45E /* CounterView.h */,
+				719B878A18E0AFB400DAA45E /* CounterView.m */,
+				719B878C18E0C6E900DAA45E /* RKCDeathClockViewController.h */,
+				719B878D18E0C6E900DAA45E /* RKCDeathClockViewController.m */,
+				719B876C18E0AF8900DAA45E /* Images.xcassets */,
+				719B876918E0AF8900DAA45E /* RKCAppDelegate.h */,
+				719B876A18E0AF8900DAA45E /* RKCAppDelegate.m */,
+				719B878F18E0CB5200DAA45E /* RKCConfigViewController.h */,
+				719B879018E0CB5200DAA45E /* RKCConfigViewController.m */,
+				719B879218E0CBBD00DAA45E /* RKCConfigViewController.xib */,
+				719B876118E0AF8900DAA45E /* Supporting Files */,
+			);
+			path = "Death Clock";
+			sourceTree = "<group>";
+		};
+		719B876118E0AF8900DAA45E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719B876218E0AF8900DAA45E /* Death Clock-Info.plist */,
+				719B876318E0AF8900DAA45E /* InfoPlist.strings */,
+				719B876618E0AF8900DAA45E /* main.m */,
+				719B876818E0AF8900DAA45E /* Death Clock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719B877918E0AF8900DAA45E /* Death ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				719B877F18E0AF8900DAA45E /* Death_ClockTests.m */,
+				719B877A18E0AF8900DAA45E /* Supporting Files */,
+			);
+			path = "Death ClockTests";
+			sourceTree = "<group>";
+		};
+		719B877A18E0AF8900DAA45E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719B877B18E0AF8900DAA45E /* Death ClockTests-Info.plist */,
+				719B877C18E0AF8900DAA45E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719B875618E0AF8900DAA45E /* Death Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719B878318E0AF8900DAA45E /* Build configuration list for PBXNativeTarget "Death Clock" */;
+			buildPhases = (
+				719B875318E0AF8900DAA45E /* Sources */,
+				719B875418E0AF8900DAA45E /* Frameworks */,
+				719B875518E0AF8900DAA45E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Death Clock";
+			productName = "Death Clock";
+			productReference = 719B875718E0AF8900DAA45E /* Death Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		719B877118E0AF8900DAA45E /* Death ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719B878618E0AF8900DAA45E /* Build configuration list for PBXNativeTarget "Death ClockTests" */;
+			buildPhases = (
+				719B876E18E0AF8900DAA45E /* Sources */,
+				719B876F18E0AF8900DAA45E /* Frameworks */,
+				719B877018E0AF8900DAA45E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719B877818E0AF8900DAA45E /* PBXTargetDependency */,
+			);
+			name = "Death ClockTests";
+			productName = "Death ClockTests";
+			productReference = 719B877218E0AF8900DAA45E /* Death ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719B874F18E0AF8900DAA45E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RKC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Raymond Camden";
+				TargetAttributes = {
+					719B877118E0AF8900DAA45E = {
+						TestTargetID = 719B875618E0AF8900DAA45E;
+					};
+				};
+			};
+			buildConfigurationList = 719B875218E0AF8900DAA45E /* Build configuration list for PBXProject "Death Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 719B874E18E0AF8900DAA45E;
+			productRefGroup = 719B875818E0AF8900DAA45E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719B875618E0AF8900DAA45E /* Death Clock */,
+				719B877118E0AF8900DAA45E /* Death ClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719B875518E0AF8900DAA45E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B876518E0AF8900DAA45E /* InfoPlist.strings in Resources */,
+				719B879318E0CBBD00DAA45E /* RKCConfigViewController.xib in Resources */,
+				719B876D18E0AF8900DAA45E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719B877018E0AF8900DAA45E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B877E18E0AF8900DAA45E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719B875318E0AF8900DAA45E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B876718E0AF8900DAA45E /* main.m in Sources */,
+				719B878E18E0C6E900DAA45E /* RKCDeathClockViewController.m in Sources */,
+				719B876B18E0AF8900DAA45E /* RKCAppDelegate.m in Sources */,
+				719B878B18E0AFB400DAA45E /* CounterView.m in Sources */,
+				719B879118E0CB5200DAA45E /* RKCConfigViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719B876E18E0AF8900DAA45E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B878018E0AF8900DAA45E /* Death_ClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		719B877818E0AF8900DAA45E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719B875618E0AF8900DAA45E /* Death Clock */;
+			targetProxy = 719B877718E0AF8900DAA45E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		719B876318E0AF8900DAA45E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719B876418E0AF8900DAA45E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		719B877C18E0AF8900DAA45E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719B877D18E0AF8900DAA45E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719B878118E0AF8900DAA45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		719B878218E0AF8900DAA45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719B878418E0AF8900DAA45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Death Clock/Death Clock-Prefix.pch";
+				INFOPLIST_FILE = "Death Clock/Death Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		719B878518E0AF8900DAA45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Death Clock/Death Clock-Prefix.pch";
+				INFOPLIST_FILE = "Death Clock/Death Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		719B878718E0AF8900DAA45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Death Clock.app/Death Clock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Death Clock/Death Clock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Death ClockTests/Death ClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		719B878818E0AF8900DAA45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Death Clock.app/Death Clock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Death Clock/Death Clock-Prefix.pch";
+				INFOPLIST_FILE = "Death ClockTests/Death ClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719B875218E0AF8900DAA45E /* Build configuration list for PBXProject "Death Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719B878118E0AF8900DAA45E /* Debug */,
+				719B878218E0AF8900DAA45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719B878318E0AF8900DAA45E /* Build configuration list for PBXNativeTarget "Death Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719B878418E0AF8900DAA45E /* Debug */,
+				719B878518E0AF8900DAA45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		719B878618E0AF8900DAA45E /* Build configuration list for PBXNativeTarget "Death ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719B878718E0AF8900DAA45E /* Debug */,
+				719B878818E0AF8900DAA45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719B874F18E0AF8900DAA45E /* Project object */;
+}
