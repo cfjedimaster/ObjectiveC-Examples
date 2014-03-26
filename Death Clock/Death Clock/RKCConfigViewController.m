@@ -58,6 +58,7 @@
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:_birthday forKey:@"Birthday"];
+    [defaults synchronize];
 
 }
 
